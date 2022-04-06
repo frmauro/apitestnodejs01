@@ -9,6 +9,7 @@ const courses = [
     {id: 2, name: 'course02'},
     {id: 3, name: 'course03'},
     {id: 4, name: 'course04'},
+    {id: 4, name: 'course05'}
 ]
 
 app.get('/api/courses', (req, res) => {
