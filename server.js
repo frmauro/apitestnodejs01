@@ -7,7 +7,8 @@ app.use(express.json());
 const courses = [
     {id: 1, name: 'course01'},
     {id: 2, name: 'course02'},
-    {id: 3, name: 'course03'}
+    {id: 3, name: 'course03'},
+    {id: 4, name: 'course04'},
 ]
 
 app.get('/api/courses', (req, res) => {
